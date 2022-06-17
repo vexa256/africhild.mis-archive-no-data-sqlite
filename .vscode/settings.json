@@ -1,0 +1,40 @@
+{
+    "debug.allowBreakpointsEverywhere": true,
+    "files.exclude": {
+        "**/.vscode": true,
+        "compile_commands.json": true,
+        "*.hrccproj": true,
+        "*.sln": true,
+        "*.suo": true
+    },
+    "files.autoGuessEncoding": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "africhild,mis",
+            "group": "local",
+            "database": "${workspaceFolder:africhild.mis}/data.bin"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "africchild.mis",
+            "group": "local",
+            "database": "${workspaceFolder:africhild.mis}/data.bin"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "cSpell.enableFiletypes": [
+        "!git-commit",
+        "blade",
+        "cuda-cpp",
+        "dart",
+        "diff",
+        "django-html",
+        "django-txt",
+        "editorconfig",
+        "fsharp",
+        "ini"
+    ]
+}
